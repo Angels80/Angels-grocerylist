@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grocery List </title>
+   </head>
+<body>
+    <div class="content">
+        <h1 class="heading"> Grocery List </h1>
+        <button class="button" onclick="ajax();">Today's Shopping List</button>
+        <img src=".png" alt="">
+      </div>
+    
+    <table id="demo" class="table table-sm table-dark">
+        <thead>
+          <tr>
+            <th scope="col">serial no</th>
+            <th scope="col">Name</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">unit</th>
+            <th scope="col">department</th>
+            <th scope="col">notes</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+        
+        </tbody>
+      </table>
+    
+      
+      <style>
+        body{
+          background-image: url(1.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: center;
+          background-size: cover;
+          background-color: black;
+          font-family: cursive;
+        }
+        .heading{
+          margin-left: 100px;
+        }
+        .content{
+          display: flex;
+         
+        }
+        .button{
+          width: 150px;
+          height: 50px;
+          margin-left: 200px;
+          margin-top: 20px;
+          font-family: cursive;
+          background-color: green;
+          color: white;
+          border: 2px solid white;
+          border-radius: 2px;
+        }
+        
+        table{
+          width: 70%;
+          border: 2px solid white;  
+          margin-left: 200px;
+          margin-top: 20px;
+          color: white;
+          
+        }
+        th{
+          color: green;
+        }
+        td{
+          border: 0.3px solid white;
+          padding: 0.6%;
+        }
+        .content{
+          color: white;
+          margin-left: 200px;
+          margin-top: 80px;
+
+        }
+       
+         #demo{
+              margin-right: 100px;
+         }
+      </style>
+    <script src="grocery.js"></script>
+</body>
+</html>

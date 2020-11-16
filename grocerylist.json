@@ -1,0 +1,90 @@
+{
+    "grocery":[
+        {
+            
+            "serialno":1,
+            "name":"Tomato",
+            "quantity":1,
+            "unit":"kg",
+            "department":"vegetables",
+            "notes":"compelsory"
+
+        },
+        {
+           
+            "serialno":2,
+            "name":"Rice",
+            "quantity":3,
+            "unit":"kg",
+            "department":"stationary",
+            "notes":"jaya/india gate"
+        },
+        {
+           
+            "serialno":3,
+            "name":"face cream",
+            "quantity":"50",
+            "unit":"ml",
+            "department":"beuty",
+            "notes":"Nivea"  
+        },
+        {
+           
+            "serialno":4,
+            "name":"Sunflower Oil",
+            "quantity":"2",
+            "unit":"litre",
+            "department":"Stationary",
+            "notes":"gold winner"  
+        },
+        {
+            "serialno":5,
+            "name":"Dress",
+            "quantity":"2",
+            "unit":"jodi",
+            "department":"beuty",
+            "notes":"night dress"  
+        },
+        {
+            "serialno":6,
+            "name":"book",
+            "quantity":"5",
+            "unit":"num",
+            "department":"stationary",
+            "notes":"classmate"  
+        },
+        {
+            "serialno":7,
+            "name":"Flask",
+            "quantity":2,
+            "unit":"pieces",
+            "department":"stationary",
+            "notes":"cello"  
+        },
+        {
+            "serialno":8,
+            "name":"Basket",
+            "quantity":2,
+            "unit":"pieaces",
+            "department":"stationary",
+            "notes":"large size"  
+        },
+        {
+            "serialno":9,
+            "name":"Hair dryer",
+            "quantity":1,
+            "unit":"piece",
+            "department":"beuty",
+            "notes":"philips"  
+        },
+        {
+            "serialno":10,
+            "name":"LED strips ",
+            "quantity":4,
+            "unit":"pieces",
+            "department":"electronics",
+            "notes":"pheonix"  
+        }
+       
+    ]
+}
